@@ -28,10 +28,6 @@ public class TypeListActivity extends MainActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_type_list);
         mHolder = new ViewHolder();
-
-        //Log.d("Test", "result:" + Arrays.toString(new MergeToppingList().rotacaoEsquerda(new int[]{1, 2, 3, 4, 5}, 2)));
-        Log.d("Test", "result:" + new MergeToppingList().listarCarros());
-
     }
 
     @Override
